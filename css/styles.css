@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none; /* Elimina las viñetas */
+    padding: 0;
+}
+
+li {
+    background: #007BFF; /* Color de fondo */
+    color: white; /* Color del texto */
+    margin: 10px 0; /* Espaciado entre elementos */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(20px); /* Desplazado hacia abajo */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transiciones suaves */
+}
